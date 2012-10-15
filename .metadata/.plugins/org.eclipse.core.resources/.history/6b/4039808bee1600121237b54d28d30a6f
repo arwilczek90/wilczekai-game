@@ -1,0 +1,104 @@
+import java.util.Collection;
+
+import jaima.game.Move;
+import jaima.game.Player;
+import jaima.game.State;
+
+public class penteState extends State {
+
+	String string = "";
+	boolean Bwhite = false;
+	boolean Bblack = false;
+	int captureW = 0;
+	int captureB = 0;
+	int counter = 0;
+	pentePlayer[] players;
+ ;
+	
+	public penteState(String s)
+	{
+        super(s);
+        
+        if(players == null) {
+            players = new Opponent[] {
+                new Opponent('X'),
+                new Opponent('O'),
+            };
+        }
+
+        s = s.replaceAll(",", "");  // strip commas
+        while (s.length() < 9)  // pad it if it's too short
+            s += blank;
+        s = s.substring(0, 9);  // and trim it if it's too long
+        
+        board = s.toUpperCase().replace(' ',blank).toCharArray()
+	}
+	
+	
+	public String toString() {
+		return string;
+	}
+
+	@Override
+	public State clone() {
+		penteState newState = new penteState(this.string);
+		return newState;
+	}
+
+	@Override
+	public Collection<Move> actions() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean terminal() {
+		if(Bwhite == true)
+		{
+			return true;
+		}
+		if(Bblack == true)
+		{
+			return true;
+		}
+		if(captureW == 5)
+		{
+			return true;
+		}
+		if(captureB == 5)
+		{
+			return true;
+		}
+		
+		return false;
+	}
+
+	public double utility(Player p) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public Player toMove() {
+		int b = charCount('B');
+        int w = charCount('W');
+        int toMove = (b <= w)? 0: 1;
+        return players[toMove];
+	}
+
+	private int charCount(char m)
+    {
+        int count = 0;
+        for(char c: board)
+            if(c == m)
+                count++;
+        return count;
+    }
+	
+	public State result(Move m) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}
