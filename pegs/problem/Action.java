@@ -1,0 +1,29 @@
+package problem;
+
+/**
+ * Write a description of class Jump here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Action
+extends jaima.search.SearchAction
+{
+    private int from, to;
+    
+    public Action(int f, int t)
+    {
+        from = f;
+        to = t;
+    }
+    
+    public double cost()
+    {
+        return 1;
+    }
+    
+    public String toString()
+    {
+        return "jump from " + from + " to " + to;
+    }
+}

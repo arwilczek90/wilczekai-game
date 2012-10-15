@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="vacuum.SmartVac"/>
+<fullyQualifiedTypeName name="jaima.util.VirtualTimer"/>
+<fullyQualifiedTypeName name="lejos.nxt.NXTMotor"/>
+<fullyQualifiedTypeName name="lejos.nxt.LCD"/>
+<fullyQualifiedTypeName name="lejos.util.Timer"/>
+<fullyQualifiedTypeName name="lejos.nxt.Motor"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+</qualifiedTypeNameHistroy>

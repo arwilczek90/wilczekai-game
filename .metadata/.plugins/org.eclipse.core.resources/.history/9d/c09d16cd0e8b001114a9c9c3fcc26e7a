@@ -1,0 +1,54 @@
+import java.util.*;
+public class PrimeFinder {
+	HashMap listOfPrimes = new HashMap();
+
+	public PrimeFinder()
+	{
+    	
+    	listOfPrimes.put(0, "ignore me");
+	}
+	public void finder(int min, int max)
+	{
+		int index = 1;
+		double remainder = 0;
+		
+		
+		boolean prime = false;
+		
+		for(double j=min; j <= max; j++)
+		{
+//			System.out.print(j + " % ");
+			double limit = Math.sqrt((double)j);
+			for(double i= 2; i <= limit; i = i + 1)
+			{
+//				System.out.print(i);
+				remainder = j % i;
+//				System.out.print(" = " + remainder + "\n");
+				if (remainder == 0)
+				{
+					prime = false;
+					break;
+				}
+				else 
+				{
+					prime = true;
+				}
+			}
+			
+			if (prime == true)
+			{
+				listOfPrimes.put(index, j);
+				index = index + 1;
+			}
+			
+			
+		}
+	
+		System.out.println(listOfPrimes.toString());
+	}
+	
+
+	}
+	
+
+

@@ -1,0 +1,87 @@
+//example output from console for this program
+
+import java.util.*;
+public class PrimeFinder {
+	
+	//creates the hashmap we store the primes in.
+	HashMap listOfPrimes = new HashMap();
+
+	public PrimeFinder()
+	{
+    	//places a placeholder at 0 because i wanted a count
+		// ofprimes
+ //   	listOfPrimes.put(0, "ignore me");
+	}
+	public void finder(int min, int max)
+	{
+		//sets the index of the hashmap.
+		int index = 0;
+		//the initialization of the remainder vairable
+		double remainder = 0;
+		//random number generator for numbers 
+		Random gen = new Random();
+		//this is a boolean place holder so we know if a number
+		//is prime
+		boolean prime = false;
+		
+		//here we iterate through all the numbers between the
+		//minimum and the maximum given
+		for(double j=min; j <= max; j++)
+		{
+//			System.out.print(j + " % ");
+			
+			//since we only need to check up to the square root
+			//of a number we take the number and square root it
+			double limit = Math.sqrt((double)j);
+			
+			//here we itterate through the whole list of
+			//numbers starting from 2 because all numbers are
+			//divisible by 1.
+			for(double i= 2; i <= limit; i = i + 1)
+			{
+//				System.out.print(i);
+				//gets the remainder of the division to accertain
+				//if it can be divided evenly by any number
+				remainder = j % i;
+//				System.out.print(" = " + remainder + "\n");
+				//checks to see if the remainder is 0
+				if (remainder == 0)
+				{
+					//if the item can be devided by anything other
+					//than one and itself marks the prime as false
+					//and breaks out of the loop
+					prime = false;
+					break;
+				}
+				else 
+				{
+					prime = true;
+				}
+			}
+			//Checks if the boolean prime is still true.
+			//if so adds it to the hashmap at whatever index
+			//it is on starting with 1
+	
+			if (prime == true)
+			{
+				listOfPrimes.put(index, j);
+				index = index + 1;
+			}
+			
+			
+		}
+		//Outputs 25 random primes in the span, the limit is
+		//currently set for the number between 1000000 and 
+		//2000000
+		for(int i=1; i <= 25; i++)
+		{
+			int r = gen.nextInt(68901);
+		System.out.println("prime #" + i + " : " +listOfPrimes.get(r));
+		}
+	}
+	
+
+	}
+	
+
+

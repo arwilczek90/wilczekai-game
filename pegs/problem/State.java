@@ -1,0 +1,264 @@
+package problem;
+import java.util.*;
+import jaima.search.*;
+
+/**
+ * Write a description of class PegBoard here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class State
+extends jaima.search.State
+implements Cloneable
+{
+    // true if there's a peg in the hole, 
+    // false otherwise
+    private boolean[] holes;
+    
+    public State (String list)
+    {
+        super(list);
+        list = list.replaceAll("\\s", "");
+        holes = new boolean[list.length()];
+        for(int i = 0; i < list.length(); i++) {
+            char c = list.charAt(i);
+            switch (c) {
+                case '0':
+                case 'O':
+                case 'o':
+                    holes[i] = false;
+                    break;
+                default:
+                    holes[i] = true;
+            }
+        }
+    }
+    
+    public String toString()
+    {
+        String s = "";
+        for(boolean peg : holes)
+            s += peg ? 'x' : 'o';
+        return s;
+    }
+    
+    public State clone()
+    {
+        return new State(toString());
+    }
+    
+    public void jump(int i, int j, int k)
+    {
+        holes[i] = !holes[i];
+        holes[j] = !holes[j];
+        holes[k] = !holes[k];
+    }
+    
+    public Map<SearchAction, State> successors()
+    {
+        Map<SearchAction, State> jumps 
+            = new HashMap<SearchAction, State>();
+            
+        // try possible horizontal jumps
+        for (int i = 3; i <= holes.length - 3; i++) {
+            int j = i + 1;
+            int k = i + 2;
+            if(row(i) != row(k))
+                continue;
+            addSuccessor(jumps, i, j, k);
+        }
+       
+        // find / jumps
+        for (int r = 0; r < row(holes.length) - 2; r++) {
+            for(int c = 0; c <= r; c++) {
+                int i = hole(r, c);
+                int j = hole(r + 1, c);
+                int k = hole(r + 2, c);
+                addSuccessor(jumps, i, j, k);
+            }
+        }
+       
+        // find \ jumps
+        for (int r = 0; r < row(holes.length) - 2; r++) {
+            for(int c = 0; c <= r; c++) {
+                int i = hole(r, c);
+                int j = hole(r + 1, c + 1);
+                int k = hole(r + 2, c + 2);
+                addSuccessor(jumps, i, j, k);
+            }
+        }
+        return jumps;
+    }
+    
+    public void addSuccessor(
+        Map<SearchAction, State> jumps,
+        int i, int j, int k)
+    {
+        // check the pegs
+        if(!holes[j])
+            return;
+        if(holes[i] == holes[k])
+            return;
+            
+        // success
+        Action jump;
+        if(holes[i]) {
+            jump = new Action(i, k);
+        } else {
+            jump = new Action(k, i);
+        }
+        State p = clone();
+        p.jump(i, j, k);
+        jumps.put(jump, p);
+    }
+    
+    public int nPegs()
+    {
+        int count = 0;
+        for(boolean peg : holes)
+            count += peg ? 1 : 0;
+        return count;
+    }
+    
+    public String prettyPrint()
+    {
+        String output = "";
+        int rows = row(holes.length);
+        for(int r = 0; r < rows; r++) {
+            output += "\n";
+            for(int p = r; p < rows; p++) {
+                output += " ";
+            }
+            for(int c = 0; c <= r; c++) {
+                boolean peg = holes[hole(r, c)];
+                output += peg ? "x " : "o ";
+            }
+        }
+//         System.out.println(output);
+        return output;
+    }
+    
+    /****************************************************************
+     * GUI functions, that help draw the board in a graphical window.
+     * You do not need to define these unless you want to write an
+     * applet or GUI application.
+     ****************************************************************/
+
+    public boolean pegAt(int n)
+    {
+        if (n >= holes.length)
+            return false;
+        return holes[n];
+    }
+    
+    public int nHoles() { 
+        return holes.length;
+    }
+    
+    public int nRows() { 
+        return row(holes.length);
+    }
+    
+    public int nCols() {
+        return col(holes.length - 1) + 1;
+    }
+    
+    public void jump(int i, int k)
+    {
+        int j = (i + k) / 2;
+        jump(i, j, k);
+    }
+    
+    public boolean legal(int i, int j, int k)
+    {
+        if(i > k) {
+            int h = i; i = k; k = h;    // swap i and k
+        }
+        if(i < 0)                   return false;
+        if(k >= holes.length)       return false;
+        if(j != (i + k) / 2)        return false;
+        
+        if(!holes[j])               return false;
+        if(holes[i] == holes[k])    return false;
+
+        if((i + 1 == j) && (j + 1 == k) 
+            && row(i) == row(k)) 
+            return true;
+        if((row(i) + 1 == row(j)) && (row(j) + 1 == row(k))
+            && (col(i) == col(j)) && (col(j) == col(k)))
+            return true;
+        if((row(i) + 1 == row(j)) && (row(j) + 1 == row(k))
+            && (col(i) + 1 == col(j)) && (col(j) + 1 == col(k)))
+            return true;
+        return false;
+    }
+    
+    public boolean legal(int i, int k)
+    {
+        int j = (i + k) / 2;
+        return legal(i, j, k);
+    }
+
+    /****************************************************************
+     * utility functions, relating to the storage of triangular data
+     * into one-dimensional matrices.  The basic idea is that:
+     *      
+     *       0         -- row 0
+     *      1 2        -- row 1
+     *     3 4 5          ...
+     *    6 . . .
+     *   / /...col N
+     *  / col 1
+     * col 0
+     * 
+     * These functions are all static because they are independent 
+     * of any particular board.
+     ****************************************************************/
+    
+    public static int nHoles(int size)
+    {
+        if(size <= 0)
+            return 0;
+            
+        return size + nHoles(size - 1);
+    }
+    
+    public static int row(int n)
+    {
+        n += 1;
+        int s = 0;
+        for( ; nHoles(s) < n; s++) {
+            // do nothing
+        }
+        return s - 1;
+    }
+    
+    public static int col(int n)
+    {
+        int r = row(n);
+        int start = nHoles(r);
+        return n - start;
+    }
+    
+    public static Integer hole(int row, int col)
+    {
+        if(col > row || row < 0) {
+            System.err.println("No hole at (" 
+                + row + "," + col + ")");
+            return null;
+        }
+        return nHoles(row) + col;
+    }
+    
+//     public static void check(int n)
+//     {
+//         for (int i = 0; i <= n; i ++) {
+//             int r = row(i);
+//             int c = col(i);
+//             int check = hole(r, c);
+//             String format = "%2s == (%2s, %2s) == %2s";
+//             System.out.println(String.format(format, i, r, c, check));
+//         }
+//     }
+}

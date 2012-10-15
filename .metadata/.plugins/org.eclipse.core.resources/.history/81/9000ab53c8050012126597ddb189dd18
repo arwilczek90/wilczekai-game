@@ -1,0 +1,68 @@
+package problem;
+import java.util.*;
+import jaima.util.*;
+import jaima.search.*;
+
+/**
+ * Write a description of class Problem here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Problem
+extends jaima.search.Problem
+{
+    private State board;
+    private State goal;
+    
+    /**
+     * Create the standard 15-hole puzzle.
+     */
+    public Problem()
+    {
+        this("");
+    }
+    
+    /**
+     * Create a pegboard 
+     */
+    public Problem(String s)
+    {
+        if(s.trim().equals(""))
+            s = "o xx xxx xxxx xxxxx";
+        board = new State(s);
+    }
+    
+    public void setGoal(String s)
+    {
+        goal = new State(s);
+    }
+    
+    public void setBoard(String s)
+    {
+        board = new State(s);
+    }
+    
+    public State initial()
+    {
+        return (State) board;
+    }
+    
+    public State goal()
+    {
+        return goal;
+    }
+    
+    public boolean isGoal(State p)
+    {
+        if(goal == null)
+            return ((State) p).nPegs() == 1;
+        
+        return p.equals(goal);
+    }
+    
+    public Map<SearchAction, State> successors(State p)
+    {
+        return ((State) p).successors();
+    }
+}
