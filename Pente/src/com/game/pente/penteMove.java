@@ -1,3 +1,4 @@
+package com.game.pente;
 import jaima.game.Move;
 import jaima.game.Player;
 

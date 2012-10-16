@@ -1,3 +1,4 @@
+package com.game.pente;
 import jaima.game.Player;
 
 public class pentePlayer extends Player{
