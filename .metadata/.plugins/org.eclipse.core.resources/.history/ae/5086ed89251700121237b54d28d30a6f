@@ -1,5 +1,4 @@
 import java.util.Collection;
-import java.math.*;
 
 import jaima.game.Move;
 import jaima.game.Player;
@@ -14,36 +13,26 @@ public class penteState extends State {
 	int captureB = 0;
 	int counter = 0;
 	pentePlayer[] players;
-	char[] board;
-	char[] [] twoDBoard;
-	int size;
-	int diameter;
- 
+	penteState board = new penteState
+ ;
 	
-	public penteState(String s, int size)
+	public penteState(String s)
 	{
         super(s);
         
         if(players == null) {
             players = new pentePlayer[] {
-                new pentePlayer('W'),
-                new pentePlayer('B'),
+                new pentePlayer('X'),
+                new pentePlayer('O'),
             };
         }
 
-        this.size = size;
-         int stringCounter = 0;
-        diameter = (int) Math.sqrt(size);
-        for(int i=0; i < diameter; i++)
-        {
-        	for(int j=0; j < diameter; j++)
-        	{
-        		twoDBoard[i][j] = s.charAt(stringCounter);
-        		stringCounter++;
-        	}
-        }
+        s = s.replaceAll(",", "");  // strip commas
+        while (s.length() < 9)  // pad it if it's too short
+            s += blank;
+        s = s.substring(0, 9);  // and trim it if it's too long
         
-        board = s.toUpperCase().toCharArray();
+        board = s.toUpperCase().replace(' ',blank).toCharArray()
 	}
 	
 	
@@ -53,7 +42,7 @@ public class penteState extends State {
 
 	@Override
 	public State clone() {
-		penteState newState = new penteState(this.string, size);
+		penteState newState = new penteState(this.string);
 		return newState;
 	}
 
@@ -116,29 +105,6 @@ public class penteState extends State {
 	        return s;
 	}
 	
-	public boolean isCapture(int x, int y)
-	{
-		return false;
-	}
 	
-	public void isfive()
-	{
-		counter = 0;
-		fiveChecker();
-		
-	}
-	
-	public boolean fiveChecker(String direction, int x, int y )
-	{
-		int xpos;
-		int ypos;
-		xpos = x;
-		ypos = y;
-		if(counter <= 5)
-			
-
-		return false;
-	
-	}
 
 }
