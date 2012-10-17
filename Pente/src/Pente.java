@@ -21,9 +21,9 @@ public class Pente
         
         Strategy[] strategies = {
 //             new Guess(),
-            new Ask("Bill"),
+//            new Ask("Bill"),
 //             new MiniMax(3),
-            new AlphaBeta(5),
+          new AlphaBeta(5),
 //             new Guess(),
 //             new Ask("Bill"),
             new MiniMax(3),
@@ -34,7 +34,7 @@ public class Pente
         int turn = 0;
         
         Player p = board.toMove();
-        while(!board.terminal()) {
+        while(board.terminal() == false) {
             System.out.println(board.prettyPrint());
             Strategy s = strategies[turn];
             jaima.game.Move m = s.choose(board);
