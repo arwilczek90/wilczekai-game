@@ -1,5 +1,5 @@
 package com.game.pente;
-import jaima.game.Player;
+import jaima.game.*;
 
 public class pentePlayer extends Player{
 
