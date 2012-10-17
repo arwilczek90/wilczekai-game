@@ -21,11 +21,11 @@ public class Pente
         
         Strategy[] strategies = {
 //             new Guess(),
-            new Ask("Bill"),
-//             new MiniMax(3),
-//         new AlphaBeta(5),
+//            new Ask("Bill"),
+            new MiniMax(1),
+          new AlphaBeta(5),
 //             new Guess(),
-             new Ask("Bill"),
+//            new Ask("Bill"),
 //            new MiniMax(3),
 //             new AlphaBeta(9),
         };
@@ -38,7 +38,12 @@ public class Pente
             System.out.println(board.prettyPrint());
             Strategy s = strategies[turn];
             jaima.game.Move m = s.choose(board);
-            System.out.println(s + "'s move: " + m.prettyPrint() + "\n");
+            String string = new String();
+            string = s.toString();
+            string += "'s move: ";
+            string += m.prettyPrint();
+            string += "\n";
+            System.out.println(string);
             board = board.result(m);
             turn = 1 - turn;
         }
