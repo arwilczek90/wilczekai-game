@@ -45,10 +45,10 @@ public class pentetest extends junit.framework.TestCase
     {
     }
     
-    public void testAsk() {
-    	assertNotNull(ask.choose(board1));
-    }
-    
+//    public void testAsk() {
+//    	assertNotNull(ask.choose(board1));
+//    }
+//    
     public void testGuess() {
     	assertNotNull(guess.choose(board1));
     }
@@ -61,5 +61,16 @@ public class pentetest extends junit.framework.TestCase
     public void testAlphaBeta() {
    	assertNotNull(alphabeta.choose(board1));
    }
+ public void testState2mm4() {
+//      jaima.game.strategies.AlphaBeta alphabeta;
+     penteMove m = (penteMove) minimax.choose(board1);
+     System.out.println(minimax + "'Minimax move: " 
+         + m.prettyPrint() + "\n"
+         + board1.result(m).prettyPrint());
+    penteMove n = (penteMove) alphabeta.choose(board1);
+    System.out.println(minimax + "'Alphabeta move: " 
+            + n.prettyPrint() + "\n"
+            + board1.result(n).prettyPrint());
+ }
 }
 
