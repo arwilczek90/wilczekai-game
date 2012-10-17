@@ -21,16 +21,16 @@ public class Pente
         
         Strategy[] strategies = {
 //             new Guess(),
-//            new Ask("Bill"),
+            new Ask("Bill"),
 //             new MiniMax(3),
-          new AlphaBeta(5),
+//         new AlphaBeta(5),
 //             new Guess(),
-//             new Ask("Bill"),
-            new MiniMax(3),
+             new Ask("Bill"),
+//            new MiniMax(3),
 //             new AlphaBeta(9),
         };
         
-        penteState board = new penteState("XXXXXXXXXXXXXXXXXXXXXXXXX");
+        penteState board = new penteState("WBBXXXWXXXXXXXXXXXXXXXXXX");
         int turn = 0;
         
         Player p = board.toMove();
