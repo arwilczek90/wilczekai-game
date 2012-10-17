@@ -21,7 +21,7 @@ public class Pente
         
         Strategy[] strategies = {
 //             new Guess(),
-//             new Ask("Bill"),
+            new Ask("Bill"),
 //             new MiniMax(3),
             new AlphaBeta(5),
 //             new Guess(),

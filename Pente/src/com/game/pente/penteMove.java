@@ -26,6 +26,8 @@ public class penteMove extends Move{
         return column;
     }
     
+
+    
     public String toString()
     {
         return turn.toString() + row + column;
