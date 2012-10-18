@@ -28,12 +28,12 @@ public class pentetest extends junit.framework.TestCase
      */
     protected void setUp()
     {
-        board1 = new com.game.pente.penteState("XXXXXXXXXXXXXXXXXXXXXXXXX");
+        board1 = new com.game.pente.penteState("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
         guess = new jaima.game.strategies.Guess();
         ask = new jaima.game.strategies.Ask("Bill");
 //        minimax = new jaima.game.strategies.MiniMax(6);
-        minimax = new jaima.game.strategies.MiniMax(4);
-       alphabeta = new jaima.game.strategies.AlphaBeta(8);
+        minimax = new jaima.game.strategies.MiniMax(2);
+       alphabeta = new jaima.game.strategies.AlphaBeta(3);
     }
 
     /**
