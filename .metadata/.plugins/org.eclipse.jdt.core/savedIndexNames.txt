@@ -1,17 +1,15 @@
-INDEX VERSION 1.126+/home/arwilczek90/wilczekai-game/.metadata/.plugins/org.eclipse.jdt.core
-262802227.index
-3937884183.index
-2456322530.index
-1230503809.index
-1276296952.index
-1698757907.index
-1192300981.index
-1825514421.index
-1159935248.index
-2194106968.index
-2898480234.index
-3192538507.index
-3422508414.index
-3721354332.index
-2683054613.index
-417373247.index
+INDEX VERSION 1.126+C:\Users\Brian\Workspace2\wilczekai-game\.metadata\.plugins\org.eclipse.jdt.core
+1789169078.index
+113247741.index
+3730526690.index
+602419594.index
+3000053649.index
+3270002986.index
+3277441100.index
+3659278438.index
+4251467834.index
+2877109961.index
+3399970522.index
+1195944079.index
+3585733931.index
+2679723203.index

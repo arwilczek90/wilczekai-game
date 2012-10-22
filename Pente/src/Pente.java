@@ -30,13 +30,13 @@ public class Pente
 //             new AlphaBeta(9),
         };
         
+        int i;
         penteState board = new penteState("XXXXXXXXWXXXWXBXXXXBXXXXX");
-        int turn = 0;
-        
+        board.setTurn(0);
         Player p = board.toMove();
         while(board.terminal() == false) {
             System.out.println(board.prettyPrint());
-            Strategy s = strategies[turn];
+            Strategy s = strategies[board.getTurn()];
             jaima.game.Move m = s.choose(board);
             String string = new String();
             string = s.toString();
@@ -44,10 +44,12 @@ public class Pente
             string += m.prettyPrint();
             string += "\n";
             System.out.println(string);
-           board.turn++;
+            i = board.getTurn();
             board = board.result(m);
-            turn = 1 - turn;
+            board.setTurn(1 - i);
+            p = board.toMove();
         }
+        
         System.out.println(board.prettyPrint());
         
         String announce = "Game result: tie";
