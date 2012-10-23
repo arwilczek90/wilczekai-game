@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ toString()
+comment0.text=\r\n\ You\ MUST\ define\ a\ compact\ string\ conversion.\ \r\n\ @return\ a\ string\ that\ identifies\ the\ state.\r\n\ If\ s1\ and\ s2\ are\ two\ different\ states,\r\n\ \!s1.toString().equals(s2.toString())\ .\r\n\ If\ s1\ and\ s2\ are\ equivalent,\ though,\r\n\ s1.toString().equals(s2.toString())\ .\r\n
+comment1.params=
+comment1.target=java.lang.String\ prettyPrint()
+comment1.text=\r\n\ Optionally,\ you\ may\ redefine\ this\ method.\r\n\ @return\ an\ ASCII\ art\ representation\ of\ the\ state.\r\n
+comment2.params=fromString
+comment2.target=State(java.lang.String)
+comment2.text=\r\n\ You\ MUST\ overload\ this\ method\r\n\ with\ a\ method\ that\ produces\ a\ valid\ State.\r\n\ @param\ fromString\ a\ compact,\ \r\n\ precise\ description\ of\ the\ state.\r\n\ It\ MUST\ be\ true\ that\:\r\n\ <pre>\r\n\ \ \ \ \ \ \ \ String\ v\ \=\ "...";\ \ \ //\ a\ valid\ state\ representation\r\n\ \ \ \ \ \ \ \ State\ s\ \=\ new\ State(v);\r\n\ \ \ \ \ \ \ \ String\ w\ \=\ s.toString();\r\n\ \ \ \ \ \ \ \ assertEquals(v,\ w);\r\n\ \ \ \ \ \ \ </pre>\r\n
+comment3.params=
+comment3.target=State\ clone()
+comment3.text=\r\n\ Most\ of\ you\ should\ implement\ the\ clone()\ method.\r\n\ A\ state\ will\ not\ work\ properly\ in\ a\ search\ tree\ \r\n\ unless\ clone()\ returns\ a\ deep\ copy.\r\n\ @return\ an\ identical\ State\r\n
+comment4.params=s
+comment4.target=int\ compareTo(State)
+comment4.text=\r\n\ This\ method\ is\ required,\ so\ that\ States\ can\ be\ stored\ in\r\n\ an\ ordered\ structure\ such\ as\ a\ TreeMap.\r\n\ You\ may\ overload\ it\ for\ efficiency,\r\n\ but\ the\ method\ below\ should\ work\ as\ it\ is.\r\n
+comment5.params=s
+comment5.target=boolean\ equals(java.lang.Object)
+comment5.text=\r\n\ This\ method\ is\ required,\ so\ that\ States\ can\ be\ stored\ in\r\n\ an\ ordered\ structure\ such\ as\ a\ TreeMap.\r\n\ You\ may\ overload\ it\ for\ efficiency,\r\n\ but\ the\ method\ below\ should\ work\ as\ it\ is.\r\n
+comment6.params=
+comment6.target=int\ hashCode()
+numComments=7

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CNFClauseGatherer()
+comment1.params=bs\ args
+comment1.target=java.lang.Object\ visitBinarySentence(jaima.logic.propositional.parsing.ast.BinarySentence,\ java.lang.Object)
+comment2.params=s\ soFar
+comment2.target=java.util.Set\ processSubTerm(jaima.logic.propositional.parsing.ast.Sentence,\ java.util.Set)
+comment3.params=sentence
+comment3.target=java.util.Set\ getClausesFrom(jaima.logic.propositional.parsing.ast.Sentence)
+numComments=4

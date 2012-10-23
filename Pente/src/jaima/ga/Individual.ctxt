@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=g
+comment0.target=Individual(Genome)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Individual\r\n
+comment1.params=
+comment1.target=Genome\ getGenome()
+comment2.params=e
+comment2.target=double\ eval(Environment)
+comment2.text=\r\n\ ensure\ that\ no\ two\ individuals\ evaluate\ exactly\ the\ same\ way,\r\n\ by\ adding\ a\ very\ small\ adjustment\ to\ the\ evaluation\r\n
+comment3.params=e\ father
+comment3.target=Individual\ procreate(Environment,\ Individual)
+comment4.params=e
+comment4.target=java.lang.String\ getString(Environment)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

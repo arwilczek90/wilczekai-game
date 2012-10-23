@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=Percept\ show(Sensor)
+comment0.text=\r\n\ Look\ around\!\ \r\n\ @param\ s\ the\ sensor\ perceiving\ the\ environment.\r\n\ @return\ a\ view\ of\ the\ environment\ from\ that\ sensor.\r\n
+comment1.params=r\ n
+comment1.target=void\ execute(Actuator,\ Action)
+comment1.text=\r\n\ Do\ something\!\r\n\ @param\ a\ the\ actuator\ performing\ the\ action\r\n\ @param\ n\ the\ specific\ action\ performed\r\n
+numComments=2

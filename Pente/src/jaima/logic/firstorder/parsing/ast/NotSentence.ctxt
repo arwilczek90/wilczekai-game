@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=negated
+comment0.target=NotSentence(Sentence)
+comment1.params=
+comment1.target=Sentence\ getNegated()
+comment2.params=
+comment2.target=FOLNode\ copy()
+comment3.params=o
+comment3.target=boolean\ equals(java.lang.Object)
+comment4.params=
+comment4.target=int\ hashCode()
+comment5.params=v\ arg
+comment5.target=java.lang.Object\ accept(jaima.logic.firstorder.parsing.FOLVisitor,\ java.lang.Object)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

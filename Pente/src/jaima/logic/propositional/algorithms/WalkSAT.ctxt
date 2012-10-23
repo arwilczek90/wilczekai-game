@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=logicalSentence\ numberOfFlips\ probabilityOfRandomWalk
+comment0.target=Model\ findModelFor(java.lang.String,\ int,\ double)
+comment1.params=clauses\ symbols\ model
+comment1.target=jaima.logic.propositional.parsing.ast.Symbol\ getSymbolWhoseFlipMaximisesSatisfiedClauses(java.util.Set,\ java.util.List,\ Model)
+comment2.params=clauses\ model
+comment2.target=int\ getNumberOfClausesSatisfiedIn(java.util.Set,\ Model)
+numComments=3

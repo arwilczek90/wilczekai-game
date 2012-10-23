@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=s\ arg
+comment0.target=java.lang.Object\ visitSymbol(jaima.logic.propositional.parsing.ast.Symbol,\ java.lang.Object)
+comment1.params=ts\ arg
+comment1.target=java.lang.Object\ visitTrueSentence(jaima.logic.propositional.parsing.ast.TrueSentence,\ java.lang.Object)
+comment2.params=fs\ arg
+comment2.target=java.lang.Object\ visitFalseSentence(jaima.logic.propositional.parsing.ast.FalseSentence,\ java.lang.Object)
+comment3.params=ns\ arg
+comment3.target=java.lang.Object\ visitNotSentence(jaima.logic.propositional.parsing.ast.UnarySentence,\ java.lang.Object)
+comment4.params=bs\ arg
+comment4.target=java.lang.Object\ visitBinarySentence(jaima.logic.propositional.parsing.ast.BinarySentence,\ java.lang.Object)
+comment5.params=fs\ arg
+comment5.target=java.lang.Object\ visitMultiSentence(jaima.logic.propositional.parsing.ast.MultiSentence,\ java.lang.Object)
+numComments=6

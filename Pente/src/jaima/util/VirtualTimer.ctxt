@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ startTimer()
+comment0.text=\r\n\ @return\ the\ elapsed\ time\ in\ seconds,\r\n\ regardless\ of\ scale\r\n
+comment1.params=
+comment1.target=double\ elapsed()
+comment1.text=\r\n\ @return\ the\ elapsed\ time\ in\ seconds,\r\n\ regardless\ of\ scale,\ \r\n\ since\ startTimer\ was\ called\r\n
+comment2.params=s
+comment2.target=void\ setScale(double)
+comment2.text=\r\n\ Set\ the\ time\ scale\r\n\ @param\ s\ the\ scale,\ 1000\=\r\n
+comment3.params=u
+comment3.target=void\ delay(double)
+comment3.text=\r\n\ @param\ u\ the\ number\ of\ time\ units\ to\ delay.\r\n\ at\ the\ default\ scale\ of\ 1000,\ 1\ unit\ \=\ 1\ second\r\n
+numComments=4

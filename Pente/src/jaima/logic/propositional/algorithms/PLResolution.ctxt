@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=kb\ alpha
+comment0.target=boolean\ plResolution(KnowledgeBase,\ java.lang.String)
+comment1.params=kb\ alpha
+comment1.target=boolean\ plResolution(KnowledgeBase,\ jaima.logic.propositional.parsing.ast.Sentence)
+comment2.params=clauses
+comment2.target=java.util.Set\ filterOutClausesWithTwoComplementaryLiterals(java.util.Set)
+comment3.params=clause1\ clause2
+comment3.target=java.util.Set\ plResolve(jaima.logic.propositional.parsing.ast.Sentence,\ jaima.logic.propositional.parsing.ast.Sentence)
+comment4.params=cs\ toRemove
+comment4.target=jaima.logic.propositional.parsing.ast.Sentence\ createResolventClause(PLResolution.ClauseSymbols,\ jaima.logic.propositional.parsing.ast.Symbol)
+comment5.params=clausesList
+comment5.target=getCombinationPairs(java.util.List)
+comment6.params=kbs\ alphaString
+comment6.target=boolean\ plResolution(java.lang.String,\ java.lang.String)
+numComments=7

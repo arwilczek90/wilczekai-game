@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PELexer()
+comment1.params=inputString
+comment1.target=PELexer(java.lang.String)
+comment2.params=
+comment2.target=jaima.logic.common.Token\ nextToken()
+comment3.params=
+comment3.target=boolean\ identifierDetected()
+comment4.params=
+comment4.target=boolean\ partOfConnector()
+comment5.params=
+comment5.target=jaima.logic.common.Token\ symbol()
+comment6.params=
+comment6.target=jaima.logic.common.Token\ connector()
+comment7.params=
+comment7.target=jaima.logic.common.Token\ whiteSpace()
+comment8.params=aSymbol
+comment8.target=boolean\ isConnector(java.lang.String)
+numComments=9

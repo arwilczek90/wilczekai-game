@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ParanthizedSentence()
+comment1.params=
+comment1.target=Sentence\ getParanthized()
+comment2.params=sen
+comment2.target=ParanthizedSentence(Sentence)
+comment3.params=o
+comment3.target=boolean\ equals(java.lang.Object)
+comment4.params=
+comment4.target=int\ hashCode()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=v\ arg
+comment6.target=java.lang.Object\ accept(jaima.logic.firstorder.parsing.FOLVisitor,\ java.lang.Object)
+comment7.params=
+comment7.target=FOLNode\ copy()
+numComments=8

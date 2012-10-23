@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=predicate\ parser
+comment0.target=Clause(parsing.ast.Predicate,\ parsing.FOLParser)
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment2.params=fact
+comment2.target=void\ populateDomainsFrom(Fact)
+comment3.params=
+comment3.target=jaima.search.csp.Domain\ domain()
+comment4.params=variable
+comment4.target=boolean\ contains(java.lang.String)
+comment5.params=variable
+comment5.target=boolean\ hasValueFor(java.lang.String)
+comment6.params=variable
+comment6.target=java.util.List\ valuesFor(java.lang.String)
+numComments=7

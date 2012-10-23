@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Scenario()
+comment0.text=\r\n\ This\ example\ will\ not\ compile\ until\ an\ environment\ is\ instantiated.\r\n
+comment1.params=
+comment1.target=void\ run()
+comment1.text=\r\n\ Start\ all\ agents.\r\n
+comment2.params=
+comment2.target=void\ quit()
+comment2.text=\r\n\ Signal\ all\ agents\ to\ quit,\ then\ waits\ for\ them\ to\ quit,\ \r\n\ then\ returns.\r\n
+numComments=3

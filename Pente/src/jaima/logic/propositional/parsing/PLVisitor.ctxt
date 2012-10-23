@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=s\ arg
+comment0.target=java.lang.Object\ visitSymbol(ast.Symbol,\ java.lang.Object)
+comment1.params=ts\ arg
+comment1.target=java.lang.Object\ visitTrueSentence(ast.TrueSentence,\ java.lang.Object)
+comment2.params=fs\ arg
+comment2.target=java.lang.Object\ visitFalseSentence(ast.FalseSentence,\ java.lang.Object)
+comment3.params=fs\ arg
+comment3.target=java.lang.Object\ visitNotSentence(ast.UnarySentence,\ java.lang.Object)
+comment4.params=fs\ arg
+comment4.target=java.lang.Object\ visitBinarySentence(ast.BinarySentence,\ java.lang.Object)
+comment5.params=fs\ arg
+comment5.target=java.lang.Object\ visitMultiSentence(ast.MultiSentence,\ java.lang.Object)
+numComments=6

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ fillLookAheadBuffer()
+comment1.params=i
+comment1.target=Token\ lookAhead(int)
+comment2.params=
+comment2.target=void\ consume()
+comment3.params=
+comment3.target=void\ loadNextTokenFromInput()
+comment4.params=t
+comment4.target=boolean\ isEndOfInput(Token)
+comment5.params=terminalSymbol
+comment5.target=void\ match(java.lang.String)
+comment6.params=input
+comment6.target=ParseTreeNode\ parse(java.lang.String)
+numComments=7

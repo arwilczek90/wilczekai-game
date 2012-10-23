@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=connector\ sentences
+comment0.target=jaima.logic.propositional.parsing.ast.Sentence\ chainWith(java.lang.String,\ java.util.List)
+comment1.params=positiveSymbols\ negativeSymbols
+comment1.target=jaima.logic.propositional.parsing.ast.Sentence\ reorderCNFTransform(java.util.Set,\ java.util.Set)
+comment2.params=strings
+comment2.target=java.util.Set\ stringsToVariables(java.util.Set)
+numComments=3

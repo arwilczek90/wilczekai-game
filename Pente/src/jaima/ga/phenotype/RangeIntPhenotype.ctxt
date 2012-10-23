@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=max
+comment0.target=RangeIntPhenotype(int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ RangeIntPhenotype\r\n\ @param\ max\ range\ of\ 0..max\r\n
+comment1.params=mn\ mx
+comment1.target=RangeIntPhenotype(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ RangeIntPhenotype\r\n\ @param\ mn\r\n\ @param\ mx\ endpoints\ of\ the\ range\ of\ x\r\n
+comment2.params=
+comment2.target=int\ width()
+comment3.params=
+comment3.target=java.lang.Class\ returnClass()
+comment4.params=b
+comment4.target=java.lang.Object\ getValue(java.math.BigInteger)
+comment5.params=b
+comment5.target=java.lang.String\ getString(java.math.BigInteger)
+comment6.params=v
+comment6.target=java.math.BigInteger\ setValue(java.lang.Object)
+numComments=7

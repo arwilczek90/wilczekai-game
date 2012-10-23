@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=parser
+comment0.target=SubstVisitor(parsing.FOLParser)
+comment1.params=variable\ arg
+comment1.target=java.lang.Object\ visitVariable(parsing.ast.Variable,\ java.lang.Object)
+comment2.params=sentence\ arg
+comment2.target=java.lang.Object\ visitQuantifiedSentence(parsing.ast.QuantifiedSentence,\ java.lang.Object)
+comment3.params=beforeSubst\ p
+comment3.target=parsing.ast.Sentence\ getSubstitutedSentence(parsing.ast.Sentence,\ java.util.Properties)
+numComments=4

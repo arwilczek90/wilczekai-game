@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=v\ arg
+comment0.target=java.lang.Object\ accept(jaima.logic.firstorder.parsing.FOLVisitor,\ java.lang.Object)
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=FOLNode\ copy()
+numComments=3

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=s\ arg
+comment0.target=java.lang.Object\ visitSymbol(jaima.logic.propositional.parsing.ast.Symbol,\ java.lang.Object)
+comment1.params=s
+comment1.target=java.util.Set\ getSymbolsIn(jaima.logic.propositional.parsing.ast.Sentence)
+numComments=2

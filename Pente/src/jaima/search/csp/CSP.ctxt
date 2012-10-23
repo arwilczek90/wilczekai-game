@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=variables\ constraints
+comment0.target=CSP(java.util.List,\ Constraint)
+comment1.params=variables\ constraints\ domains
+comment1.target=CSP(java.util.List,\ Constraint,\ Domain)
+comment2.params=variable
+comment2.target=java.util.List\ defaultOrderDomainOf(java.lang.String)
+comment3.params=
+comment3.target=Assignment\ backTrackingSearch()
+comment4.params=anAssignment
+comment4.target=Assignment\ recursiveBackTrackingSearch(Assignment)
+comment5.params=maxSteps
+comment5.target=Assignment\ mcSearch(int)
+comment6.params=
+comment6.target=Assignment\ generateRandomAssignment()
+numComments=7

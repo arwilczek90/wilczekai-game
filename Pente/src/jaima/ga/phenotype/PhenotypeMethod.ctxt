@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=void\ perror(java.lang.String)
+comment1.params=bits
+comment1.target=java.lang.Integer\ getInt(java.math.BigInteger)
+comment2.params=value
+comment2.target=java.math.BigInteger\ setInt(int)
+comment3.params=bits
+comment3.target=java.lang.Long\ getLong(java.math.BigInteger)
+comment4.params=value
+comment4.target=java.math.BigInteger\ setLong(long)
+comment5.params=bits
+comment5.target=java.lang.Double\ getDouble(java.math.BigInteger)
+comment6.params=value
+comment6.target=java.math.BigInteger\ setDouble(double)
+comment7.params=bits
+comment7.target=java.lang.String\ getString(java.math.BigInteger)
+comment8.params=value
+comment8.target=java.math.BigInteger\ setString(java.lang.String)
+numComments=9

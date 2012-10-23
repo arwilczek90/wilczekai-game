@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PredicateCollector()
+comment1.params=p\ arg
+comment1.target=java.lang.Object\ visitPredicate(parsing.ast.Predicate,\ java.lang.Object)
+comment10.params=s
+comment10.target=java.util.List\ getPredicates(parsing.ast.Sentence)
+comment2.params=equality\ arg
+comment2.target=java.lang.Object\ visitTermEquality(parsing.ast.TermEquality,\ java.lang.Object)
+comment3.params=variable\ arg
+comment3.target=java.lang.Object\ visitVariable(parsing.ast.Variable,\ java.lang.Object)
+comment4.params=constant\ arg
+comment4.target=java.lang.Object\ visitConstant(parsing.ast.Constant,\ java.lang.Object)
+comment5.params=function\ arg
+comment5.target=java.lang.Object\ visitFunction(parsing.ast.Function,\ java.lang.Object)
+comment6.params=sentence\ arg
+comment6.target=java.lang.Object\ visitNotSentence(parsing.ast.NotSentence,\ java.lang.Object)
+comment7.params=sentence\ arg
+comment7.target=java.lang.Object\ visitConnectedSentence(parsing.ast.ConnectedSentence,\ java.lang.Object)
+comment8.params=sentence\ arg
+comment8.target=java.lang.Object\ visitParanthizedSentence(parsing.ast.ParanthizedSentence,\ java.lang.Object)
+comment9.params=sentence\ arg
+comment9.target=java.lang.Object\ visitQuantifiedSentence(parsing.ast.QuantifiedSentence,\ java.lang.Object)
+numComments=11

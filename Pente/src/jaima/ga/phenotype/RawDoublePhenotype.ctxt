@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ width()
+comment1.params=
+comment1.target=java.lang.Class\ returnClass()
+comment2.params=b
+comment2.target=java.lang.Object\ getValue(java.math.BigInteger)
+comment3.params=b
+comment3.target=java.lang.String\ getString(java.math.BigInteger)
+comment4.params=v
+comment4.target=java.math.BigInteger\ setValue(java.lang.Object)
+numComments=5

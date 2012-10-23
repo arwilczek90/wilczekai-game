@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=domain
+comment0.target=FOLLexer(jaima.logic.firstorder.FOLDomain)
+comment1.params=
+comment1.target=jaima.logic.common.Token\ nextToken()
+comment2.params=
+comment2.target=jaima.logic.common.Token\ identifier()
+comment3.params=s
+comment3.target=boolean\ isVariable(java.lang.String)
+comment4.params=
+comment4.target=boolean\ identifierDetected()
+comment5.params=
+comment5.target=boolean\ partOfConnector()
+numComments=6

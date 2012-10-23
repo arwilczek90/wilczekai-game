@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=parser
+comment0.target=VariableCollector(parsing.FOLParser)
+comment1.params=var\ arg
+comment1.target=java.lang.Object\ visitVariable(parsing.ast.Variable,\ java.lang.Object)
+comment2.params=sentence
+comment2.target=java.util.Set\ collectAllVariables(parsing.ast.Sentence)
+comment3.params=sentence
+comment3.target=java.util.List\ getAllVariableNames(parsing.ast.Sentence)
+numComments=4

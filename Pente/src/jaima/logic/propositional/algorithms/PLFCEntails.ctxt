@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PLFCEntails()
+comment1.params=kb\ s
+comment1.target=boolean\ plfcEntails(KnowledgeBase,\ java.lang.String)
+comment2.params=kb\ q
+comment2.target=boolean\ plfcEntails(KnowledgeBase,\ jaima.logic.propositional.parsing.ast.Symbol)
+comment3.params=sentences
+comment3.target=java.util.List\ asHornClauses(java.util.List)
+comment4.params=hornClause
+comment4.target=boolean\ countisZero(PLFCEntails.HornClause)
+comment5.params=hornClause
+comment5.target=void\ decrementCount(PLFCEntails.HornClause)
+comment6.params=p
+comment6.target=boolean\ inferred(jaima.logic.propositional.parsing.ast.Symbol)
+numComments=7

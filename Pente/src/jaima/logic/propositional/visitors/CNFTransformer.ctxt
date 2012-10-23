@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=bs\ arg
+comment0.target=java.lang.Object\ visitBinarySentence(jaima.logic.propositional.parsing.ast.BinarySentence,\ java.lang.Object)
+comment1.params=us\ arg
+comment1.target=java.lang.Object\ visitNotSentence(jaima.logic.propositional.parsing.ast.UnarySentence,\ java.lang.Object)
+comment2.params=s
+comment2.target=jaima.logic.propositional.parsing.ast.Sentence\ transform(jaima.logic.propositional.parsing.ast.Sentence)
+comment3.params=s
+comment3.target=jaima.logic.propositional.parsing.ast.Sentence\ step(jaima.logic.propositional.parsing.ast.Sentence)
+comment4.params=bs
+comment4.target=jaima.logic.propositional.parsing.ast.Sentence\ transformBiConditionalSentence(jaima.logic.propositional.parsing.ast.BinarySentence)
+comment5.params=bs
+comment5.target=jaima.logic.propositional.parsing.ast.Sentence\ transformImpliedSentence(jaima.logic.propositional.parsing.ast.BinarySentence)
+comment6.params=us
+comment6.target=jaima.logic.propositional.parsing.ast.Sentence\ transformNotSentence(jaima.logic.propositional.parsing.ast.UnarySentence)
+comment7.params=bs
+comment7.target=jaima.logic.propositional.parsing.ast.Sentence\ distributeOrOverAnd(jaima.logic.propositional.parsing.ast.BinarySentence)
+numComments=8

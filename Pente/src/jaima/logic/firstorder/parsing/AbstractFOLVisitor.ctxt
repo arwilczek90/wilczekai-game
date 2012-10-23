@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=parser
+comment0.target=AbstractFOLVisitor(FOLParser)
+comment1.params=ast
+comment1.target=ast.Sentence\ recreate(java.lang.Object)
+comment10.params=sentence\ arg
+comment10.target=java.lang.Object\ visitParanthizedSentence(ast.ParanthizedSentence,\ java.lang.Object)
+comment2.params=variable\ arg
+comment2.target=java.lang.Object\ visitVariable(ast.Variable,\ java.lang.Object)
+comment3.params=sentence\ arg
+comment3.target=java.lang.Object\ visitQuantifiedSentence(ast.QuantifiedSentence,\ java.lang.Object)
+comment4.params=predicate\ arg
+comment4.target=java.lang.Object\ visitPredicate(ast.Predicate,\ java.lang.Object)
+comment5.params=equality\ arg
+comment5.target=java.lang.Object\ visitTermEquality(ast.TermEquality,\ java.lang.Object)
+comment6.params=constant\ arg
+comment6.target=java.lang.Object\ visitConstant(ast.Constant,\ java.lang.Object)
+comment7.params=function\ arg
+comment7.target=java.lang.Object\ visitFunction(ast.Function,\ java.lang.Object)
+comment8.params=sentence\ arg
+comment8.target=java.lang.Object\ visitNotSentence(ast.NotSentence,\ java.lang.Object)
+comment9.params=sentence\ arg
+comment9.target=java.lang.Object\ visitConnectedSentence(ast.ConnectedSentence,\ java.lang.Object)
+numComments=11

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=d
+comment0.target=AlphaBeta(int)
+comment1.params=s
+comment1.target=jaima.game.Move\ choose(jaima.game.State)
+comment2.params=s\ a\ b\ d
+comment2.target=double\ maxValue(jaima.game.State,\ double,\ double,\ int)
+comment3.params=s\ a\ b\ d
+comment3.target=double\ minValue(jaima.game.State,\ double,\ double,\ int)
+numComments=4

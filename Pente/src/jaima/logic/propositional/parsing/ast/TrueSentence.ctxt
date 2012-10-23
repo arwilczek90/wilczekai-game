@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ toString()
+comment1.params=plv\ arg
+comment1.target=java.lang.Object\ accept(jaima.logic.propositional.parsing.PLVisitor,\ java.lang.Object)
+numComments=2

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=sentence\ parser
+comment0.target=Rule(parsing.ast.Sentence,\ parsing.FOLParser)
+comment1.params=sentence
+comment1.target=java.util.List\ breakIntoPredicates(parsing.ast.ConnectedSentence)
+comment10.params=variable
+comment10.target=boolean\ variableHasBindingsInContainingClauses(java.lang.String)
+comment2.params=
+comment2.target=int\ numClauses()
+comment3.params=i
+comment3.target=Clause\ clause(int)
+comment4.params=
+comment4.target=parsing.ast.Predicate\ conclusion()
+comment5.params=facts
+comment5.target=void\ initializeAllClauseDomainsFrom(java.util.List)
+comment6.params=variable
+comment6.target=java.util.List\ clausesContaining(java.lang.String)
+comment7.params=
+comment7.target=boolean\ triggerable()
+comment8.params=variable
+comment8.target=boolean\ variableHasAtLeastOneCommonValue(java.lang.String)
+comment9.params=variable
+comment9.target=java.util.List\ commonValuesInContainingClauses(java.lang.String)
+numComments=11

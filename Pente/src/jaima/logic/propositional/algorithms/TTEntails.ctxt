@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TTEntails()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ TTEntails\r\n
+comment1.params=v
+comment1.target=TTEntails(boolean)
+comment2.params=kb\ alpha
+comment2.target=boolean\ ask(KnowledgeBase,\ java.lang.String)
+comment3.params=kbSentence\ querySentence\ symbols\ model
+comment3.target=boolean\ ttCheckAll(jaima.logic.propositional.parsing.ast.Sentence,\ jaima.logic.propositional.parsing.ast.Sentence,\ java.util.List,\ Model)
+numComments=4

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Sentence\ getNegated()
+comment1.params=negated
+comment1.target=UnarySentence(Sentence)
+comment2.params=o
+comment2.target=boolean\ equals(java.lang.Object)
+comment3.params=
+comment3.target=int\ hashCode()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=plv\ arg
+comment5.target=java.lang.Object\ accept(jaima.logic.propositional.parsing.PLVisitor,\ java.lang.Object)
+numComments=6

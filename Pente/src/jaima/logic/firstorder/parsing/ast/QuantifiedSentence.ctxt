@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=quantifier\ variables\ quantified
+comment0.target=QuantifiedSentence(java.lang.String,\ java.util.List,\ Sentence)
+comment1.params=o
+comment1.target=boolean\ equals(java.lang.Object)
+comment10.params=
+comment10.target=java.util.List\ getVariablesAsString()
+comment2.params=
+comment2.target=int\ hashCode()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=v\ arg
+comment4.target=java.lang.Object\ accept(jaima.logic.firstorder.parsing.FOLVisitor,\ java.lang.Object)
+comment5.params=
+comment5.target=QuantifiedSentence\ copy()
+comment6.params=
+comment6.target=Sentence\ getQuantified()
+comment7.params=
+comment7.target=java.util.List\ getVariables()
+comment8.params=variables
+comment8.target=void\ setVariables(java.util.List)
+comment9.params=
+comment9.target=java.lang.String\ getQuantifier()
+numComments=11

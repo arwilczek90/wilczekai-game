@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GraphSQ()
+comment1.params=fringe\ current\ problem
+comment1.target=void\ addExpandedNodesToFringe(java.util.Collection,\ Node,\ jaima.search.Problem)
+comment2.params=node
+comment2.target=boolean\ onClosed(Node)
+comment3.params=node
+comment3.target=Node\ checkOpen(Node)
+numComments=4

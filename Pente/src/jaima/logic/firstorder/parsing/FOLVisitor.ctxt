@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=p\ arg
+comment0.target=java.lang.Object\ visitPredicate(ast.Predicate,\ java.lang.Object)
+comment1.params=equality\ arg
+comment1.target=java.lang.Object\ visitTermEquality(ast.TermEquality,\ java.lang.Object)
+comment2.params=variable\ arg
+comment2.target=java.lang.Object\ visitVariable(ast.Variable,\ java.lang.Object)
+comment3.params=constant\ arg
+comment3.target=java.lang.Object\ visitConstant(ast.Constant,\ java.lang.Object)
+comment4.params=function\ arg
+comment4.target=java.lang.Object\ visitFunction(ast.Function,\ java.lang.Object)
+comment5.params=sentence\ arg
+comment5.target=java.lang.Object\ visitNotSentence(ast.NotSentence,\ java.lang.Object)
+comment6.params=sentence\ arg
+comment6.target=java.lang.Object\ visitConnectedSentence(ast.ConnectedSentence,\ java.lang.Object)
+comment7.params=sentence\ arg
+comment7.target=java.lang.Object\ visitParanthizedSentence(ast.ParanthizedSentence,\ java.lang.Object)
+comment8.params=sentence\ arg
+comment8.target=java.lang.Object\ visitQuantifiedSentence(ast.QuantifiedSentence,\ java.lang.Object)
+numComments=9

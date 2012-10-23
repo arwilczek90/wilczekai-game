@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=sentence
+comment0.target=java.util.Set\ getPositiveSymbolsIn(jaima.logic.propositional.parsing.ast.Sentence)
+comment1.params=sentence
+comment1.target=java.util.Set\ getNegativeSymbolsIn(jaima.logic.propositional.parsing.ast.Sentence)
+comment2.params=sentence
+comment2.target=java.util.Set\ getPureNegativeSymbolsIn(jaima.logic.propositional.parsing.ast.Sentence)
+comment3.params=sentence
+comment3.target=java.util.Set\ getPurePositiveSymbolsIn(jaima.logic.propositional.parsing.ast.Sentence)
+comment4.params=sentence
+comment4.target=java.util.Set\ getPureSymbolsIn(jaima.logic.propositional.parsing.ast.Sentence)
+comment5.params=sentence
+comment5.target=java.util.Set\ getImpureSymbolsIn(jaima.logic.propositional.parsing.ast.Sentence)
+comment6.params=sentence
+comment6.target=java.util.Set\ getSymbolsIn(jaima.logic.propositional.parsing.ast.Sentence)
+numComments=7

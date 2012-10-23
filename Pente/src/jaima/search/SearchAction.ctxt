@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ toString()
+comment0.text=\r\n\ You\ must\ define\ a\ string\ conversion\ that\ identifies\r\n\ each\ distinct\ state.\r\n
+comment1.params=
+comment1.target=double\ cost()
+comment2.params=s
+comment2.target=int\ compareTo(SearchAction)
+numComments=3

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=constants\ functions\ predicates
+comment0.target=FOLDomain(java.util.Set,\ java.util.Set,\ java.util.Set)
+comment1.params=
+comment1.target=FOLDomain()
+comment2.params=
+comment2.target=java.util.Set\ getConstants()
+comment3.params=
+comment3.target=java.util.Set\ getFunctions()
+comment4.params=
+comment4.target=java.util.Set\ getPredicates()
+comment5.params=constant
+comment5.target=void\ addConstant(java.lang.String)
+comment6.params=function
+comment6.target=void\ addFunction(java.lang.String)
+comment7.params=predicate
+comment7.target=void\ addPredicate(java.lang.String)
+numComments=8

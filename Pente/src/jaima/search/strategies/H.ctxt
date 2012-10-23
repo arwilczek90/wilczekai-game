@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=p
+comment0.target=H(jaima.search.Problem)
+comment1.params=a\ b
+comment1.target=int\ compare(Node,\ Node)
+numComments=2

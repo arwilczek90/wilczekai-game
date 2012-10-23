@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=problem\ fringe
+comment0.target=java.util.Stack\ search(jaima.search.Problem,\ java.util.Collection)
+comment1.params=nodes
+comment1.target=Node\ remove(java.util.Collection)
+comment1.text=\r\n\ remove\ one\ node\ from\ a\ collection\r\n\ @return\ the\ node\ removed,\ or\ null\ if\ the\ collection\ is\ empty\r\n
+comment2.params=fringe\ node\ problem
+comment2.target=void\ addExpandedNodesToFringe(java.util.Collection,\ Node,\ jaima.search.Problem)
+comment2.text=\r\n\ This\ is\ the\ Tree-Search\ algorithm\ described\ on\ p.\ 72\r\n
+numComments=3

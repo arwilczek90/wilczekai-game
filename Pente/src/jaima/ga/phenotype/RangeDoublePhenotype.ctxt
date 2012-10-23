@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=mn\ mx\ pr
+comment0.target=RangeDoublePhenotype(double,\ double,\ double)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ RangeIntPhenotype\r\n\ @param\ mn\r\n\ @param\ mx\ endpoints\ of\ the\ range\ of\ x\r\n
+comment1.params=
+comment1.target=int\ width()
+comment2.params=
+comment2.target=java.lang.Class\ returnClass()
+comment3.params=b
+comment3.target=java.lang.Object\ getValue(java.math.BigInteger)
+comment4.params=b
+comment4.target=java.lang.String\ getString(java.math.BigInteger)
+comment5.params=v
+comment5.target=java.math.BigInteger\ setValue(java.lang.Object)
+numComments=6

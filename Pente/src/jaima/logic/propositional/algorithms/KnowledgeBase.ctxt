@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=v
+comment0.target=KnowledgeBase(boolean)
+comment1.params=
+comment1.target=KnowledgeBase()
+comment2.params=aSentence
+comment2.target=void\ tell(java.lang.String)
+comment3.params=percepts
+comment3.target=void\ tellAll(java.lang.String[])
+comment4.params=
+comment4.target=int\ size()
+comment5.params=
+comment5.target=jaima.logic.propositional.parsing.ast.Sentence\ asSentence()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=
+comment7.target=java.lang.String\ prettyString()
+comment8.params=
+comment8.target=java.util.List\ getSentences()
+numComments=9

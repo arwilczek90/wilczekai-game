@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=operator\ sentences
+comment0.target=MultiSentence(java.lang.String,\ java.util.List)
+comment1.params=
+comment1.target=java.lang.String\ getOperator()
+comment2.params=
+comment2.target=java.util.List\ getSentences()
+comment3.params=o
+comment3.target=boolean\ equals(java.lang.Object)
+comment4.params=
+comment4.target=int\ hashCode()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=plv\ arg
+comment6.target=java.lang.Object\ accept(jaima.logic.propositional.parsing.PLVisitor,\ java.lang.Object)
+numComments=7

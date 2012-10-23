@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=variables
+comment0.target=Domain(java.util.List)
+comment1.params=variable
+comment1.target=java.util.List\ getDomainOf(java.lang.String)
+comment2.params=variable\ value
+comment2.target=void\ add(java.lang.String,\ java.lang.String)
+comment3.params=variable\ values
+comment3.target=void\ addToDomain(java.lang.String,\ java.util.List)
+comment4.params=variable\ value
+comment4.target=void\ remove(java.lang.String,\ java.lang.Object)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

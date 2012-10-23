@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=value
+comment0.target=Symbol(java.lang.String)
+comment1.params=o
+comment1.target=boolean\ equals(java.lang.Object)
+comment2.params=
+comment2.target=int\ hashCode()
+comment3.params=
+comment3.target=java.lang.String\ getValue()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=plv\ arg
+comment5.target=java.lang.Object\ accept(jaima.logic.propositional.parsing.PLVisitor,\ java.lang.Object)
+numComments=6

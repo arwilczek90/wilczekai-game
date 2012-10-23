@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=one\ two
+comment0.target=java.util.Set\ union(java.util.Set,\ java.util.Set)
+comment1.params=one\ two
+comment1.target=java.util.Set\ intersection(java.util.Set,\ java.util.Set)
+comment2.params=one\ two
+comment2.target=java.util.Set\ difference(java.util.Set,\ java.util.Set)
+comment3.params=s\ o
+comment3.target=boolean\ in(java.util.Set,\ java.lang.Object)
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=e\ s\ a
+comment0.target=Agent(Environment,\ Sensor[],\ Actuator[])
+comment0.text=\r\n\ Create\ an\ Agent\r\n\ @param\ e\ the\ environment,\ possibly\ shared\ with\ other\ agents\r\n\ @param\ s\ the\ available\ sensors\r\n\ @param\ a\ the\ available\ actuators\r\n
+comment1.params=
+comment1.target=void\ run()
+comment1.text=\r\n\ A\ template\ for\ a\ running\ agent.\ \ \r\n\ DO\ NOT\ USE\ THIS\ without\ modification\!\r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ quit()
+comment3.text=\r\n\ signal\ the\ agent\ to\ exit\ its\ run()\ method\r\n
+numComments=4

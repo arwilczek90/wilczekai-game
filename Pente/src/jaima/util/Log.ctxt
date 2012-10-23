@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ init()
+comment1.params=filename
+comment1.target=void\ set(java.lang.String)
+comment2.params=p
+comment2.target=void\ set(java.io.PrintStream)
+comment3.params=description
+comment3.target=void\ record(java.lang.String)
+numComments=4

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Token\ nextToken()
+comment1.params=inputString
+comment1.target=void\ setInput(java.lang.String)
+comment2.params=
+comment2.target=void\ fillLookAheadBuffer()
+comment3.params=position
+comment3.target=char\ lookAhead(int)
+comment4.params=i
+comment4.target=boolean\ isEndOfFile(int)
+comment5.params=
+comment5.target=void\ loadNextCharacterFromInput()
+comment6.params=
+comment6.target=void\ consume()
+comment7.params=
+comment7.target=void\ clear()
+numComments=8

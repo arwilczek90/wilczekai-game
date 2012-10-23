@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ toString()
+comment0.text=\r\n\ You\ must\ define\ a\ string\ conversion\ that\ identifies\r\n\ each\ distinct\ state.\r\n
+comment1.params=
+comment1.target=java.lang.String\ prettyPrint()
+comment1.text=\r\n\ You\ may\ overload\ this\ method\r\n\ to\ define\ a\ version\ for\ game\ display\r\n
+comment2.params=s
+comment2.target=int\ compareTo(Move)
+comment2.text=\r\n\ You\ may\ define\ a\ more\ efficient\ comparison\r\n
+numComments=3

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=term1
+comment0.target=void\ setTerm1(Sentence)
+comment1.params=term2
+comment1.target=void\ setTerm2(Sentence)
+comment2.params=
+comment2.target=Term\ getTerm1()
+comment3.params=
+comment3.target=Term\ getTerm2()
+comment4.params=term1\ term2
+comment4.target=TermEquality(Term,\ Term)
+comment5.params=o
+comment5.target=boolean\ equals(java.lang.Object)
+comment6.params=
+comment6.target=int\ hashCode()
+comment7.params=v\ arg
+comment7.target=java.lang.Object\ accept(jaima.logic.firstorder.parsing.FOLVisitor,\ java.lang.Object)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment9.params=
+comment9.target=FOLNode\ copy()
+numComments=10

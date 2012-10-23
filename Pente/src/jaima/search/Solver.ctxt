@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=p\ name
+comment0.target=boolean\ test(Problem,\ java.lang.String)
+comment0.text=\r\n\ Test\ a\ solution\ strategy\ on\ a\ particular\ problem.\r\n\ @param\ name\ the\ name\ of\ a\ particular\ strategy.\ \ \r\n\ A\ class\ with\ this\ name\ must\ be\ defined\ in\ the\ strategies\ package.\r\n\ @param\ p\ the\ problem\ to\ which\ this\ strategy\ is\ applied.\r\n\ @return\ true\ if\ the\ strategy\ finds\ a\ solution\ to\ this\ problem.\r\n
+comment1.params=p\ s
+comment1.target=boolean\ test(Problem,\ strategies.Strategy)
+comment1.text=\r\n\ Test\ a\ solution\ strategy\ on\ a\ particular\ problem.\r\n\ @param\ name\ the\ name\ of\ a\ particular\ strategy.\ \ \r\n\ A\ class\ with\ this\ name\ must\ be\ defined\ in\ the\ strategies\ package.\r\n\ @param\ p\ the\ problem\ to\ which\ this\ strategy\ is\ applied.\r\n\ @return\ true\ if\ the\ strategy\ finds\ a\ solution\ to\ this\ problem.\r\n
+comment2.params=
+comment2.target=java.lang.String\ packageName()
+numComments=3
